@@ -1,0 +1,26 @@
+header {
+	text-align: center;
+}
+
+nav {
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	text-align: left;
+	left: 0;
+	top: 20px;
+}
+
+nav table {
+
+}
+
+body {
+	background-color: #060618;
+}
+
+footer {
+	text-align: center;
+}
