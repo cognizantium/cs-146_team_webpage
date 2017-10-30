@@ -1,7 +1,14 @@
 header {
 	width: 100%;
-	height: auto;
 	text-align: center;
+	color: white;
+}
+
+header img {
+	margin: auto;
+	display: block;
+	height: auto;
+	max-width: 80%;
 }
 
 nav {
@@ -15,14 +22,13 @@ nav {
 	top: 20px;
 }
 
-nav table {
-
-}
-
 body {
 	background-color: #060618;
+	max-width: 100%;
+	color: white;
 }
 
 footer {
+color: white;
 	text-align: center;
 }
