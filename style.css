@@ -1,11 +1,11 @@
 header {
-	width: max-width;
+	max-width: 100%;
 	text-align: center;
 }
 
-header img {
-	width: max-width;
+#logo {
 	height: auto;
+	max-width: 100%;
 }
 
 nav {
@@ -21,7 +21,8 @@ nav {
 
 body {
 	background-color: #060618;
-	width: device-width;
+	max-width: 100%;
+	color: white;
 }
 
 footer {
