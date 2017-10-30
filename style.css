@@ -1,10 +1,10 @@
 header {
-	width: device-width;
+	width: max-width;
 	text-align: center;
 }
 
 header img {
-	max-width: 100%;
+	width: max-width;
 	height: auto;
 }
 
