@@ -1,7 +1,7 @@
 header {
 	width: 100%;
 	text-align: center;
-	color: white;
+	position: relative;
 }
 
 header img {
@@ -11,24 +11,33 @@ header img {
 	max-width: 80%;
 }
 
-nav {
-	float: left;
-	max-width: 160px;
-	margin: 0;
-	position: -webkit-sticky; /* Safari */
-	position: sticky;
-	text-align: left;
-	left: 0;
-	top: 20px;
+.flex-box {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-justify-content: center;
+	justify-content: space-around;
+	text-align: center;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.flex-item {
+	flex: 1;
+	align-self: center;
+}
+
+@media all and (max-width: 768px) {
+	.flex-box {-webkit-flex-direction: column; flex-direction: column;}
 }
 
 body {
 	background-color: #060618;
-	max-width: 100%;
 	color: white;
 }
 
 footer {
-color: white;
+	clear: both;
 	text-align: center;
 }
