@@ -48,6 +48,11 @@ a:hover {
 	color: #009614;
 }
 
+body {
+	background-color: #060618;
+	color: white;
+}
+
 body img:hover {
 	opacity: 0.8;
 }
@@ -63,12 +68,28 @@ body main h2, body main h3 {
     color:cornflowerblue;
 }
 
+#spin {
+	-webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+	transition: width 1s, height 1s, transform 1s;
+}
+
+#spin:hover {
+	-webkit-transform: rotate(360deg);
+	transform: rotate(360deg);
+}
+
 .flex-item {
 	flex: 1;
 }
 
 .flex-item:hover {
 	background-color: #E3B662;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	font-family: fantasy;
 }
 
 /* Desktop-specific style */
@@ -79,6 +100,7 @@ body main h2, body main h3 {
 	}
 }
 
+/* Tablet-specific style */
 @media all and (min-width: 500px) and (max-width: 800px) {
 	.flex-box {
 		-webkit-flex-direction: column; flex-direction: column;
@@ -89,6 +111,7 @@ body main h2, body main h3 {
 	}
 }
 
+/* Mobile-device-specific style */
 @media all and (max-width: 500px) {
 	.flex-box {
 		-webkit-flex-direction: column; flex-direction: column;
@@ -97,19 +120,4 @@ body main h2, body main h3 {
 	header h1 {
 		font-size: 4vw;
 	}
-}
-
-#news {
-	width: 80%;
-}
-
-body {
-	background-color: #060618;
-	color: white;
-}
-
-footer {
-	clear: both;
-	text-align: center;
-	font-family: fantasy;
 }
