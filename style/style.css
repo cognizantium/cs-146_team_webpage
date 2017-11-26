@@ -41,16 +41,47 @@ header img {
 }
 
 a{
-    color:white;
+        color: white;
+}
+
+a:hover {
+	color: black;
 }
 
 .flex-item {
 	flex: 1;
-	align-self: center;
 }
 
-@media all and (max-width: 768px) {
-	.flex-box {-webkit-flex-direction: column; flex-direction: column;}
+.flex-item:hover {
+	background-color: #E3B662;
+}
+
+/* Desktop-specific style */
+@media all and (min-width: 800px)
+{
+	header h1 {
+		font-size: 20pt;
+	}
+}
+
+@media all and (min-width: 500px) and (max-width: 800px) {
+	.flex-box {
+		-webkit-flex-direction: column; flex-direction: column;
+	}
+	
+	header h1 {
+		font-size: 4vw;
+	}
+}
+
+@media all and (max-width: 500px) {
+	.flex-box {
+		-webkit-flex-direction: column; flex-direction: column;
+	}
+	
+	header h1 {
+		font-size: 4vw;
+	}
 }
 
 #news {
