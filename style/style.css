@@ -21,6 +21,18 @@ header img {
 	text-align: center;
 	flex-wrap: nowrap;
 	align-items: center;
+	background-color: #566C89;
+	color: #333333;
+	padding: 2px 6px 2px 6px;
+	border-top: 5px solid #213D64;
+	border-right: 5px solid #213D64;
+	border-bottom: 5px solid #213D64;
+	border-left: 5px solid #213D64;
+	
+}
+
+a{
+    color:white;
 }
 
 .flex-item {
