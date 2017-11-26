@@ -1,0 +1,57 @@
+.pics{
+	display:flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.proPics{
+	height:200px;
+	width:200px;
+	border-radius: 50%;
+}
+h1{
+	color: magenta;
+	font-family: fantasy;
+}
+.mashedPic{
+	display: block;
+	margin: 0 auto;
+}
+h2{
+	text-align: center;
+	color: yellow;
+	font-family: fantasy;
+}
+p{
+	color: cyan;
+	font-size: 30px;
+	font-family: fantasy;
+}
+figcaption{
+	color: yellow;
+}
+small{
+	color: magenta;
+	font-family: fantasy;
+}
+@media only screen and (max-width: 800px){
+	.mashedPic{
+		height: 350px;
+		width: 350px;
+	}
+	p{
+		font-size: 25px;
+	}
+}
+@media only screen and (max-width: 400px){
+	h1{
+		font-size: 20px;
+	}
+	.mashedPic{
+	    height: 300px;
+		width: 300px;
+	}	
+	p{
+		font-size: 20px;
+		text-align: center;
+	}
+}
