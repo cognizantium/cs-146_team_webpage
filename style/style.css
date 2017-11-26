@@ -52,6 +52,17 @@ body img:hover {
 	opacity: 0.8;
 }
 
+body main p {
+    color:burlywood;
+}
+
+body main h2, body main h3 {
+    font-style: oblique;
+    font-size: 20px;
+    text-align: center;
+    color:cornflowerblue;
+}
+
 .flex-item {
 	flex: 1;
 }
