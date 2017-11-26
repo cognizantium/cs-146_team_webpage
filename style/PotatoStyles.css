@@ -11,7 +11,8 @@ p{
 
 h2{
     font-style: oblique;
-    font-size: 25px;
+    font-size: 30px;
+    text-align: center;
 }
 
 .memes{
@@ -45,21 +46,3 @@ h2{
 
     
 }
-
-/* CSS rules for tablets */
-@media only screen and (min-width: 401px) and (max-width:800px)
-{
-
-    h2{
-        text-align: center;
-    }
-    
-    }
-}
-/* CSS rules for phones */
-@media only screen and (max-width:400px)
-{
-    h2{
-        text-align: center;
-    }
-    }
