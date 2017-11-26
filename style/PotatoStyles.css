@@ -1,0 +1,65 @@
+img{
+    max-width: 300px;
+    max-height: 200px;
+}
+
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h2{
+    font-style: oblique;
+    font-size: 25px;
+}
+
+.memes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.memes2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.memes > * {
+    margin-top: 10px;
+}
+
+.memes2 > * {
+    margin-top: 10px;
+}
+
+
+/* CSS rules for desktops */
+
+@media only screen and (min-width: 801px)
+{
+
+    
+}
+
+/* CSS rules for tablets */
+@media only screen and (min-width: 401px) and (max-width:800px)
+{
+
+    h2{
+        text-align: center;
+    }
+    
+    }
+}
+/* CSS rules for phones */
+@media only screen and (max-width:400px)
+{
+    h2{
+        text-align: center;
+    }
+    }
