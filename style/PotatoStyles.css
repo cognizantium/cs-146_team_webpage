@@ -7,12 +7,16 @@ p{
     text-align: center;
     font-weight: bold;
     font-size: 20px;
+    color:burlywood;
 }
+
+
 
 h2{
     font-style: oblique;
     font-size: 30px;
     text-align: center;
+    color:cornflowerblue;
 }
 
 .memes{
@@ -23,6 +27,9 @@ h2{
     margin-top: 10px;
 }
 
+.morelinks{
+    color: burlywood;
+}
 .memes2{
     display: flex;
     justify-content: space-around;
