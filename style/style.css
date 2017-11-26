@@ -20,7 +20,7 @@ header img {
 	justify-content: space-around;
 	text-align: center;
 	flex-wrap: nowrap;
-	align-items: center;
+	align-items: stretch;
 	background-color: #566C89;
 	color: #333333;
 	padding: 2px 6px 2px 6px;
