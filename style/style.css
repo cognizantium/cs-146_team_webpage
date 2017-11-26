@@ -11,11 +11,6 @@ header img {
 	max-width: 80%;
 }
 
-.slogan{
-	color: #333333;
-	font-family: fantasy;
-}
-
 .flex-box {
 	display: -webkit-flex;
 	display: flex;
@@ -35,6 +30,10 @@ header img {
 	border-left: 5px solid #213D64;
 	font-size: 17px;
 	
+}
+.slogan{
+	color: #333333;
+	font-family: fantasy;
 }
 
 a{
