@@ -69,6 +69,7 @@ body main h2, body main h3 {
 }
 
 #spin {
+	max-width: 90vw;
 	-webkit-transition: width 1s, height 1s, -webkit-transform 1s;
 	transition: width 1s, height 1s, transform 1s;
 }
