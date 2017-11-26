@@ -1,0 +1,22 @@
+/*
+	Graham Howard
+	CS-146
+	I pledge my honor that I have abided by the Stevens Honor System.
+ */
+ 
+section {
+	max-width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#quickfacts img {
+	display: inline;
+	margin-left: 2rem;
+}
