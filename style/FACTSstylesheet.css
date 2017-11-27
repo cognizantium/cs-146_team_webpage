@@ -58,7 +58,8 @@ p.para3, p.para5, p.p7, p.p9, p.p11{
 p.p6, p.p7,p.p8,p.p9,p.p10,p.p11{
   font-size: 120%;
 }
-.image3{
+.image3
+{
   float: right;
   margin-right: 10px;
   clear:both;
