@@ -8,12 +8,12 @@ function addImageEvents() {
 
     for (var i = 1; i < images.length; ++i) {
         images[i].onmouseover = function(e) {
-            console.log("cancer");
+            console.log("stuff");
         }
     }
     for (var i = 1; i < images.length; ++i) {
         images[i].onmouseout = function(e) {
-            console.log("cancer");
+            console.log("stuff");
         }
     }
 }
