@@ -1,4 +1,7 @@
 function handleFormSubmit() {
+	if(window.event){
+		window.event.preventDefault();
+	}
 	// Get values of inputs
 	// Pass values to addNewPost()
     var imageURL = document.getElementById("input-URL").value;
@@ -22,8 +25,8 @@ function handleFormSubmit() {
 function addNewPost(imageURL) {
 	// Create the parent post div
     var div = document.createElement("div");
-    div.classList.add("usersub");
-
+    div.className = "usersub";
+	
 	// Create image element
     var img = document.createElement("img");
     img.src = imageURL;
