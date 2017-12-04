@@ -58,6 +58,28 @@ h2{
 }
 
 
+.slider {
+    -webkit-appearance: none;
+    width: 25%;
+    height: 15px;
+    border-radius: 5px;   
+    background: #FFFFFF;
+    outline: none;
+    opacity: 1.0;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: burlywood;
+    cursor: pointer;
+}
+
+
+
 /* CSS rules for desktops */
 
 @media only screen and (min-width: 801px)
