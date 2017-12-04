@@ -76,6 +76,11 @@
             <!-- Form just calls a js function -->
             <form onsubmit="handleFormSubmit(); return false;">
                 <input type="text" name="URL" id="input-URL" placeholder="Enter an image URL!" required>
+                <select id="input-picture">
+                    <option value="Meme">Meme</option>
+                    <option value="Photograph">Photograph</option>
+                </select>
+                <input type="text" name="description" id="description" placeholder="Write a description!" required>
                 <button>Submit!</button>
             </form>
         </section>
@@ -83,6 +88,8 @@
         <section id="usersubs">
 
         </section>
+        
+        
     </div>
     </main>
     <footer> <br>
