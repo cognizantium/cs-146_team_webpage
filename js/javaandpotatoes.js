@@ -1,3 +1,23 @@
+window.addEventListener("load", function() {
+    addImageEvents();
+});
+
+function addImageEvents() {
+    var images = document.getElementsByTagName("img");
+    console.log(images);
+
+    for (var i = 1; i < images.length; ++i) {
+        images[i].onmouseover = function(e) {
+            console.log("cancer");
+        }
+    }
+    for (var i = 1; i < images.length; ++i) {
+        images[i].onmouseout = function(e) {
+            console.log("cancer");
+        }
+    }
+}
+
 var slider = document.getElementById("myRange");
 var output = document.getElementById("demo");
 output.innerHTML = slider.value; // Display the default slider value
