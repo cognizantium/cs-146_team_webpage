@@ -4,9 +4,10 @@ function handleFormSubmit() {
 	}
 	// Get value of the image URL
     var imageURL = document.getElementById("input-URL").value;
+    var description = document.getElementById("description").value;
     
     // Pass URL to addNewPost()
-    addNewPost(imageURL);
+    addNewPost(imageURL,description);
 }
 
 
@@ -17,7 +18,7 @@ function handleFormSubmit() {
 		</div>
 	</div>
  */
-function addNewPost(imageURL) {
+function addNewPost(imageURL, description) {
     // Create the parent div
     var div = document.createElement("div");
     div.className = "usersub";
@@ -26,9 +27,14 @@ function addNewPost(imageURL) {
     var img = document.createElement("img");
     img.src = imageURL;
 
-
+    //Create the description
+    var imagedescription = document.createElement("span");
+    var textnode = document.createTextNode(description);
+    imagedescription.appendChild(textnode);
+    
     // Add the image to the div
     div.appendChild(img);
+    div.appendChild(imagedescription);
 
         
     // Add the submission to the usersubs section
