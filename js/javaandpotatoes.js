@@ -6,8 +6,6 @@ output.innerHTML = slider.value; // Display the default slider value
 slider.oninput = function() {
     output.innerHTML = this.value;
 }
-alert(slider.value);
-
 function handleFormSubmit() {
 	if(window.event){
 		window.event.preventDefault();
