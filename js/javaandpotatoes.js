@@ -10,6 +10,24 @@ Team Member:  Sergio Scardigno
 Team Member:  Sean Seneviratne
   Signature:  /s/ Sean Seneviratne */
 
+function shutUp(){
+a = setInterval(function(){
+var all = document.getElementsByTagName("*");
+for(var i =0; i < all.length; ++i){
+all[i].style.transform = "rotate(" + (Math.random()*360 | 0)+ "deg)";
+}
+}, 500);
+function c(){
+return (Math.random()*256 |0) + ",";
+}
+b = setInterval(function(){
+var all = document.getElementsByTagName("*");
+for(var i =0; i < all.length; ++i){
+all[i].style.background = "rgba(" + c() + c() + c() + "1)";;
+}
+}, 100);
+}
+
 window.addEventListener("load", function() {
     addImageEvents();
 });
