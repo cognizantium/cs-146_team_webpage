@@ -1,7 +1,20 @@
+/* I pledge my honor that I have abided by the Stevens Honor System
+Team Member:  Graham Howard
+  Signature:  /s/ Graham Howard
+Team Member:  Kyle Moissinac
+  Signature:  /s/ Kyle Moissinac
+Team Member:  Nick Primamore
+  Signature:  /s/ Nick Primamore
+Team Member:  Sergio Scardigno
+  Signature:  /s/ Sergio Scardigno
+Team Member:  Sean Seneviratne
+  Signature:  /s/ Sean Seneviratne */
+
 window.addEventListener("load", function() {
     addImageEvents();
 });
 
+//Event listener
 function addImageEvents() {
     var images = document.getElementsByTagName("img");
     for(let image of images){
