@@ -82,9 +82,11 @@
                 <input type="text" name="description" id="description" placeholder="Write a description!" required>
                 <div id="slidecontainer">
                 <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
-                <p>Value: <span id="demo"></span></p>
+                <p class="potatoness">Potatoness: </p>
+                <span id="demo"></span>
+                <button id="button" onClick="handleFormSubmit(); return false;">Submit!</button>
                 </div>
-                <button>Submit!</button>
+                
             </form>
         </section>
 
