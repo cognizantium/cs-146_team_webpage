@@ -4,16 +4,11 @@ window.addEventListener("load", function() {
 
 function addImageEvents() {
     var images = document.getElementsByTagName("img");
-    console.log(images);
-
-    for (var i = 1; i < images.length; ++i) {
-        images[i].onmouseover = function(e) {
-            console.log("stuff");
-        }
-    }
-    for (var i = 1; i < images.length; ++i) {
-        images[i].onmouseout = function(e) {
-            console.log("stuff");
+    for(let image of images){
+        if(image.id != 'logo'){
+            image.onclick = () => {
+                alert(image.alt);
+            }
         }
     }
 }
