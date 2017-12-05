@@ -78,12 +78,67 @@ h2{
     cursor: pointer;
 }
 
-
-
-/* CSS rules for desktops */
-
-@media only screen and (min-width: 801px)
-{
-
+.usersub{
+    display: flex;
+    flex-direction: column;
     
 }
+
+#usersubs{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+    grid-auto-rows: auto;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.potatoness{
+    color: white;
+    font-size: 1em;
+    margin: 10px 5px;
+}
+
+#slidecontainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dstyling{
+    font-size: 13px;
+    color:white;
+    margin: auto;
+}
+
+.cstyling{
+    font-size: 15px;
+    color:white;
+    margin: auto;
+}
+
+.pstyling{
+    font-size: 15px;
+    color:burlywood;
+    margin: auto;
+    
+}
+
+#button {
+            background-color: burlywood;
+            color: white;
+            border-radius: 4px;
+            text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        }
+
+#button{
+    margin: 10px 5px;
+}
+
